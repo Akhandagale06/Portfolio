@@ -113,50 +113,10 @@ export const SkillsSection: React.FC = () => {
                     </div>
                     <div>
                       <h3 className="text-base font-bold font-heading text-white">{skill.name}</h3>
-                      <span className="text-xs font-mono text-slate-400">{skill.category} • {skill.yearsOfExp} Yrs Exp</span>
+                      <span className="text-xs font-mono text-slate-400">
+                        {skill.category}{skill.yearsOfExp ? ` • ${skill.yearsOfExp} Yrs Exp` : ''}
+                      </span>
                     </div>
-                  </div>
-
-                  {/* Circular SVG Dial */}
-                  <div className="relative w-12 h-12 flex items-center justify-center shrink-0">
-                    <svg className="w-12 h-12 transform -rotate-90">
-                      <circle
-                        cx="24"
-                        cy="24"
-                        r="18"
-                        stroke="rgba(255, 255, 255, 0.1)"
-                        strokeWidth="3"
-                        fill="transparent"
-                      />
-                      <circle
-                        cx="24"
-                        cy="24"
-                        r="18"
-                        stroke="#06B6D4"
-                        strokeWidth="3"
-                        fill="transparent"
-                        strokeDasharray={113}
-                        strokeDashoffset={113 - (113 * skill.level) / 100}
-                        strokeLinecap="round"
-                        className="transition-all duration-1000 ease-out"
-                      />
-                    </svg>
-                    <span className="absolute text-[10px] font-bold font-mono text-cyan-300">
-                      {skill.level}%
-                    </span>
-                  </div>
-                </div>
-
-                {/* Progress Bar */}
-                <div className="space-y-1">
-                  <div className="h-1.5 w-full bg-zinc-800 rounded-full overflow-hidden">
-                    <motion.div
-                      initial={{ width: 0 }}
-                      whileInView={{ width: `${skill.level}%` }}
-                      viewport={{ once: true }}
-                      transition={{ duration: 1, delay: 0.2 }}
-                      className="h-full bg-gradient-to-r from-purple-500 to-cyan-400 rounded-full"
-                    />
                   </div>
                 </div>
               </motion.div>

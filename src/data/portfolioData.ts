@@ -95,18 +95,18 @@ export const PROJECTS: Project[] = [
 ];
 
 export const SKILLS: Skill[] = [
-  { name: "Java (JDK 21)", category: "Backend", icon: "Server", level: 70, yearsOfExp: 1, highlight: true },
-  { name: "Spring Boot", category: "Backend", icon: "Server", level: 70, yearsOfExp: 1, highlight: true },
-  { name: "Spring Security & JWT", category: "Backend", icon: "ShieldCheck", level: 70, yearsOfExp: 1, highlight: true },
-  { name: "REST APIs & WebSockets", category: "Backend", icon: "Network", level: 70, yearsOfExp: 1, highlight: true },
-  { name: "PostgreSQL", category: "Databases", icon: "Database", level: 70, yearsOfExp: 1, highlight: true },
-  { name: "MongoDB", category: "Databases", icon: "HardDrive", level: 70, yearsOfExp: 1 },
-  { name: "OOP & DSA", category: "Concepts", icon: "BrainCircuit", level: 70, yearsOfExp: 1, highlight: true },
-  { name: "DBMS & REST Architecture", category: "Concepts", icon: "Layers", level: 70, yearsOfExp: 1 },
-  { name: "Docker", category: "DevOps", icon: "Container", level: 70, yearsOfExp: 1, highlight: true },
-  { name: "Maven", category: "DevOps", icon: "Cpu", level: 70, yearsOfExp: 1 },
-  { name: "Git & GitHub", category: "DevOps", icon: "GitBranch", level: 70, yearsOfExp: 1 },
-  { name: "Problem Solving & Leadership", category: "Soft Skills", icon: "Sparkles", level: 70, yearsOfExp: 1 }
+  { name: "Java (JDK 21)", category: "Backend", icon: "Server",level: 70, yearsOfExp: 0-1, highlight: true },
+  { name: "Spring Boot", category: "Backend", icon: "Server",level: 70, yearsOfExp: 0-1, highlight: true },
+  { name: "Spring Security & JWT", category: "Backend", icon: "ShieldCheck",level: 70, yearsOfExp: 0-1, highlight: true },
+  { name: "REST APIs & WebSockets", category: "Backend", icon: "Network",level: 70, yearsOfExp: 0-1, highlight: true },
+  { name: "PostgreSQL", category: "Databases", icon: "Database",level: 70, yearsOfExp: 0-1, highlight: true },
+  { name: "MongoDB", category: "Databases", icon: "HardDrive",level: 70, yearsOfExp: 0-1 },
+  { name: "OOP & DSA", category: "Concepts", icon: "BrainCircuit", level: 70, yearsOfExp: 0-1, highlight: true },
+  { name: "DBMS & REST Architecture", category: "Concepts", icon: "Layers", level: 70, yearsOfExp: 0-1 },
+  { name: "Docker", category: "DevOps", icon: "Container", level: 70, yearsOfExp: 0-1, highlight: true },
+  { name: "Maven", category: "DevOps", icon: "Cpu", level: 70, yearsOfExp: 0-1 },
+  { name: "Git & GitHub", category: "DevOps", icon: "GitBranch", level: 70, yearsOfExp: 0-1 },
+  { name: "Problem Solving & Leadership", category: "Soft Skills", icon: "Sparkles", level: 70, yearsOfExp: 0-1 }
 ];
 
 export const EXPERIENCES: Experience[] = [
